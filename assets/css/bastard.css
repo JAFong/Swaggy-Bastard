@@ -2,7 +2,9 @@
 * https://github.com/karloespiritu/Bastard
 * Copyright (c) 2014 Karlo Espiritu - MIT License
 */
-
+#slidemenu-wrapper i{
+  margin: 10px 0;
+}
 .hljs {
   display: block;
   padding: 0.5em;
@@ -3287,7 +3289,7 @@ navbar { margin-bottom: 0; border-bottom: 1px solid rgba(255, 255, 255, 0.3); te
 
 /* ========================================================================== 4. General - The main styles for the the theme ========================================================================== */
 /* Panel Overlay */
-.panel-cover-overlay { display: block; position: absolute; z-index: 0; top: 0; right: 0; bottom: 0; left: 0; background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 20%, rgba(0, 0, 0, 0.7)); }
+.panel-cover-overlay { display: block; position: absolute; z-index: -1; top: 0; right: 0; bottom: 0; left: 0; background-color:black ; }
 
 /* Bigass cover image on the home page */
 .site-head { position: relative; display: table; width: 100%; height: 100%; text-align: center; color: #bbbbbb; background: url(../images/cover.jpg) no-repeat center center; background-size: cover; }
@@ -3449,7 +3451,7 @@ h1.post-title { color: #005B9A; }
 
 /* ========================================================================== 12. Slider Menu ========================================================================== */
 .site-nav-logo { position: fixed; left: 10px; top: 10px; width: 45px; height: 45px; background-color: rgba(255, 255,255, 0.6); border-radius: .5em; overflow: hidden; z-index: 99; }
-.site-nav-logo .logo { display: block; position: absolute; top: 5px; left: 5px; width: 35px; height: 35px; border-radius: 100%; background-size: cover; background-repeat: no-repeat; }
+.site-nav-logo .logo { display: block; position: absolute; top: 3px; left: 5.5px; width: 35px; height: 35px; border-radius: 100%; background-size: cover; background-repeat: no-repeat; }
 
 #slidemenu-wrapper { margin-left: -250px; left: 0; width: 250px; background: #FFFFFF; position: fixed; height: 100%; overflow-y: auto; z-index: 1000; -webkit-transition: all 0.4s ease 0s; -moz-transition: all 0.4s ease 0s; -ms-transition: all 0.4s ease 0s; -o-transition: all 0.4s ease 0s; transition: all 0.4s ease 0s; }
 #slidemenu-wrapper a { color: #828282; }
